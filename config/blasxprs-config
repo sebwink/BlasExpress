@@ -1,0 +1,6 @@
+#!/bin/bash
+
+BLASXPRS_HOME=/home/sebastian/prjcts/BlasExpress
+BLASXPRS_CONFIG=${BLASXPRS_HOME}/config
+
+echo $"include $BLASXPRS_CONFIG/$1/blasxprs_config.mak" > $BLASXPRS_CONFIG/blasxprs_config.mak
